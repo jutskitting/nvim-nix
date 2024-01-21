@@ -34,6 +34,13 @@
         type = "app";
         program = "${pkgs.customNeovim}/bin/nvim";
       };
+
+      devShells.default = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            customNeovim
+          ];
+      };
+
     };
 }
 
