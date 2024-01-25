@@ -6,7 +6,6 @@ vim.o.expandtab = true
 vim.opt.ignorecase = true
 vim.o.smartindent=true
 vim.o.number=true
-vim.cmd('colorscheme orbital')
 vim.o.wrap=true
 vim.o.swapfile=false
 vim.o.history=500
